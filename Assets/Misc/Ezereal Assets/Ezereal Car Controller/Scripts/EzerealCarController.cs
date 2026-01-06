@@ -7,6 +7,8 @@ namespace Ezereal
 {
     public class EzerealCarController : MonoBehaviour // This is the main system resposible for car control.
     {
+        public float currentSpeedKPH;
+
         [Header("Ezereal References")]
 
         [SerializeField] EzerealLightController ezerealLightController;
@@ -454,7 +456,9 @@ namespace Ezereal
                 currentSpeed *= 3.6f; 
                 UpdateSpeedText(currentSpeed);
 #endif
+                currentSpeedKPH = currentSpeed;
 
+                UpdateSpeedText(currentSpeed);    
             }
 
 

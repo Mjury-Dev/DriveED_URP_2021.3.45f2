@@ -588,8 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingScore: 100
   currentScore: 0
-  violations:
-  - 
+  violations: []
 --- !u!4 &2031284311
 Transform:
   m_ObjectHideFlags: 0
@@ -10040,6 +10039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46348285f23b1144dad9e361a04831c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentSpeedKPH: 0
   ezerealLightController: {fileID: 8248260232001426555}
   ezerealSoundController: {fileID: 7470498366776285199}
   ezerealWheelFrictionController: {fileID: 8892985507710159496}

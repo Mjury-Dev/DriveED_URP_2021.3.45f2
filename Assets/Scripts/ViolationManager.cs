@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 
 public class ViolationManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class ViolationManager : MonoBehaviour
 
     public List<string> violations = new List<string>();
     private HashSet<string> activeViolations = new HashSet<string>();
+    private HashSet<string> runningPenalties = new HashSet<string>();
 
     void Awake()
     {
@@ -47,15 +49,43 @@ public class ViolationManager : MonoBehaviour
         AddViolation(violationName, penalty);
     }
 
+    public void StartContinuousPenalty(string violationName, int penaltyPerSecond)
+    {
+        if (runningPenalties.Contains(violationName))
+            return;
+
+        runningPenalties.Add(violationName);
+        StartCoroutine(ContinuousPenaltyTick(violationName, penaltyPerSecond));
+    }
+
+    private IEnumerator ContinuousPenaltyTick(string violationName, int penaltyPerSecond)
+    {
+        while (activeViolations.Contains(violationName))
+        {
+            currentScore -= penaltyPerSecond;
+            Debug.Log($"Violation: {violationName} (-{penaltyPerSecond}/sec)");
+            Debug.Log($"Score: {currentScore}");
+
+            if (currentScore <= 0)
+            {
+                FailExam();
+                yield break;
+            }
+
+            yield return new WaitForSeconds(1f);
+        }
+
+        runningPenalties.Remove(violationName);
+    }
+
     public void ClearViolation(string violationName)
     {
         activeViolations.Remove(violationName);
     }
 
-
     void FailExam()
     {
-        Debug.Log("❌ Driving Test Failed");
-        // show UI, stop car, end exam
+        Debug.Log("Driving Test Failed");
+        // TODO: Stop vehicle, freeze controls, show fail UI
     }
 }
