@@ -221,6 +221,17 @@
                 },
                 {
                     "name": "",
+                    "id": "e303e599-5275-4934-bca7-84e19871435b",
+                    "path": "<HID::G27 Racing Wheel>/stick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Steer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "60ab877d-ff46-4396-bc37-0c969e225fdc",
                     "path": "<Keyboard>/w",
                     "interactions": "",
@@ -353,6 +364,17 @@
                 },
                 {
                     "name": "",
+                    "id": "9c3cce08-2d12-4d97-8a2e-66fa3ca1f442",
+                    "path": "<HID::G27 Racing Wheel>/button6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownShift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "ef150ded-e68b-4add-8bdc-4a71b00b364a",
                     "path": "<Keyboard>/shift",
                     "interactions": "",
@@ -366,6 +388,17 @@
                     "name": "",
                     "id": "8f172098-9fec-4632-91f5-fa017498f970",
                     "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpShift",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b1d47b5-0d35-429c-a4f1-cbf9af2a71c7",
+                    "path": "<HID::G27 Racing Wheel>/button5",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -535,6 +568,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "StartCar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2d771fc4-de16-4f08-93a8-a2aa5e24cdfd",
+                    "path": "<HID::G27 Racing Wheel>/rz",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa9c0f0e-d127-4856-9097-7bb2f8f1cece",
+                    "path": "<HID::G27 Racing Wheel>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brake",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
