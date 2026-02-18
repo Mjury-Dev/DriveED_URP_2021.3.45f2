@@ -11,11 +11,17 @@ public class MainMenu : MonoBehaviour
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     public void GoMainMenu()
     {
         SceneManager.LoadScene("StartScreen");
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     public void QuitGame()
     {

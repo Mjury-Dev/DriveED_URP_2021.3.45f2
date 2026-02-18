@@ -493,7 +493,10 @@ MonoBehaviour:
   uTurnAngle: 180
   penalty: 20
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &676766285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1180,9 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_ButtonPressPoint: 0.5
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1235511038
 GameObject:
@@ -1314,7 +1320,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 1235511038}
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1635566819
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,6 +2020,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1803623051
 GameObject:
@@ -2277,7 +2289,10 @@ CanvasRenderer:
   m_GameObject: {fileID: 1980882963}
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &2026990710
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,6 +2521,9 @@ Transform:
   m_Father: {fileID: 4852299833984016084}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &2031284309
 GameObject:
