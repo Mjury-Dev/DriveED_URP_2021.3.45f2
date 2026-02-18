@@ -16,8 +16,11 @@ EditorBuildSettings:
     guid: 3e5d18e87783c9047bebcda640db60fa
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_configObjects: {}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_configObjects:
@@ -26,6 +29,9 @@ EditorBuildSettings:
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: bbae28e41ed675b4eadde6b79f3a6653,
       type: 2}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

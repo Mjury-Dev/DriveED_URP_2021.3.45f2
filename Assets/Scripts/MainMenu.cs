@@ -12,7 +12,10 @@ public class MainMenu : MonoBehaviour
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     public void GoMainMenu()
@@ -20,6 +23,9 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("StartScreen");
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
