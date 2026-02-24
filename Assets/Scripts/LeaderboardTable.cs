@@ -124,6 +124,8 @@ public class LeaderboardTable : MonoBehaviour
         entryTransform.Find("nameText")
             .GetComponent<TextMeshProUGUI>().text = entry.name;
 
+        entryTransform.Find("background").gameObject.SetActive(rank % 2 == 1);
+
         leaderboardEntryTransformList.Add(entryTransform);
     }
 
